@@ -1,0 +1,17 @@
+meta {
+  name: Upload documents
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/api/documents/upload
+  body: multipartForm
+  auth: inherit
+}
+
+body:multipart-form {
+  name: first
+  description: empty
+  file: @file(C:\Users\sonan\Downloads\UCG-NET-250510113398-1747213046.pdf)
+}
