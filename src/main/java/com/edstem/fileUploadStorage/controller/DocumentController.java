@@ -2,7 +2,6 @@ package com.edstem.fileUploadStorage.controller;
 
 import com.edstem.fileUploadStorage.dto.DocumentDTO;
 import com.edstem.fileUploadStorage.service.DocumentService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
